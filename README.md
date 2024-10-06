@@ -9,7 +9,6 @@ Here's a sample README file for a machine learning project focused on analyzing 
 - [Objectives](#objectives)
 - [Dataset](#dataset)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
 - [Future Work](#future-work)
@@ -37,24 +36,16 @@ You can download the dataset from https://www.kaggle.com/code/bwandowando/studen
 - Seaborn
 - Jupyter Notebook
 
-## Installation
-To set up the project environment, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/trend-in-placement.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd placement-trend-analysis
-   ```
-
 ## Usage
 1. Open the Jupyter Notebook in the project directory:
    ```bash
    jupyter notebook
    ```
-2. Run the cells in the `Trend_in_Placement.ipynb` notebook to execute the analysis and view results.
+2. Run the cells in the `Identifying_Patterns_and_Trends_in_Campus_Placement_Data_using_Machine_Learning_BACKEND.ipynb` notebook to execute the analysis and view results.
+3. Run the streamlit UI interface by the following command in cmd:
+   ```bash
+   streamlit run app.py
+   ```
 
 ## Results
 The analysis reveals significant trends in placement data, including:
